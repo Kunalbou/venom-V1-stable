@@ -13,12 +13,12 @@ from threading import Thread
 import asyncio
 import aiohttp
 from telebot.types import ReplyKeyboardMarkup, KeyboardButton
-from config import BOT_TOKEN, GROUP_ID
+from config import 7231764349:AAFUrTSj5reWNW9rGn86a8pUneKWp56DitY, 4556089868
 loop = asyncio.get_event_loop()
 
-TOKEN = 'BOT_TOKEN'
+TOKEN = '7231764349:AAFUrTSj5reWNW9rGn86a8pUneKWp56DitY'
 MONGO_URI = 'mongodb+srv://VENOMxCRAZY:CRAZYxVENOM@cluster0.ythilmw.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0&tlsAllowInvalidCertificates=true'
-FORWARD_CHANNEL_ID = [GROUP_ID]
+FORWARD_CHANNEL_ID = [4556089868]
 CHANNEL_ID = {GROUP_ID}
 error_channel_id = {GROUP_ID}
 
